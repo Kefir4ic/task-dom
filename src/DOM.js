@@ -53,6 +53,5 @@ export function replaceNodes() {
         newNode.className = tree.childNodes[i].className;
         tree.childNodes[i].replaceWith(newNode);
     }
-
     return tree;
 }
